@@ -54,6 +54,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BaseVM.cs" />
     <Compile Include="TabCtrlVM.cs" />
     <Compile Include="TabVM.cs" />
     <Page Include="MainWindow.xaml">

@@ -1,8 +1,44 @@
 ﻿namespace WpfApp1
 {
-    public class TabVM
+    public class TabVM : BaseVM
     {
-        public string FieldA { get; set; }
-        public string FieldB { get; set; }
+        private string _fieldA;
+        private string _fieldB;
+
+        public TabVM()
+        {
+
+        }
+
+        public string FieldA
+        {
+            get
+            {
+                return _fieldA;
+            }
+            set
+            {
+                if (_fieldA != value)
+                {
+                    _fieldA = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+        public string FieldB
+        {
+            get
+            {
+                return _fieldB;
+            }
+            set
+            {
+                if (_fieldB != value)
+                {
+                    _fieldB = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace WpfApp1
 {
-    internal class TabCtrlVM
+    public class TabCtrlVM:BaseVM
     {
         public TabCtrlVM()
         {
