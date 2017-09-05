@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-
-        <TabControl>
+        <StackPanel>
+        <TabControl Name="tbCtrl" ItemsSource="{Binding}">
             <TabItem Header="tab A" DataContext="{Binding TabAVM}">
                 <StackPanel>
                     <Label>A</Label>
@@ -28,6 +28,10 @@
 
             </TabItem>
         </TabControl>
-        
+            <Button Command="{Binding CheckCmd}" 
+                    CommandParameter="{Binding ElementName=tbCtrl, Path=SelectedValue.DataContext}">
+                Check
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>
