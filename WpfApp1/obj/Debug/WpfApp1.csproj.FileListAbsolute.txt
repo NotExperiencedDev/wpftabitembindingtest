@@ -13,3 +13,17 @@ c:\users\pltokar\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug
 c:\users\pltokar\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 c:\users\pltokar\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 c:\users\pltokar\Documents\Visual Studio 2017\Projects\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.Cache
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Karcz\Source\Repos\wpftabitembindingtest\WpfApp1\obj\Debug\WpfApp1.pdb

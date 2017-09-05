@@ -9,7 +9,7 @@
     <Grid>
 
         <TabControl>
-            <TabItem Header="A" DataContext="{Binding TabAVM}">
+            <TabItem Header="tab A" DataContext="{Binding TabAVM}">
                 <StackPanel>
                     <Label>A</Label>
                     <TextBox Text="{Binding FieldA}"></TextBox>
@@ -18,7 +18,7 @@
                     </StackPanel>
                 
             </TabItem>
-            <TabItem Header="B" DataContext="{Binding TabBVM}">
+            <TabItem Header="tab B" DataContext="{Binding TabBVM}">
                 <StackPanel>
                     <Label>A</Label>
                     <TextBox Text="{Binding FieldA}"></TextBox>

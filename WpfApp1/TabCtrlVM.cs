@@ -7,7 +7,7 @@
 
         }
 
-        public TabAVM TabAVM { get; set; }
-        public TabBVM TabBVM { get; set; }
+        public TabVM TabAVM { get; set; }
+        public TabVM TabBVM { get; set; }
     }
 }

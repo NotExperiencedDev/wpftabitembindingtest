@@ -1,6 +1,6 @@
 ﻿namespace WpfApp1
 {
-    public class TabAVM
+    public class TabVM
     {
         public string FieldA { get; set; }
         public string FieldB { get; set; }

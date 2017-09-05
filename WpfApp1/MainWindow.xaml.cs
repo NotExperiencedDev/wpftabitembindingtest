@@ -23,8 +23,8 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            TabAVM ta = new TabAVM { FieldA = "alskjdf", FieldB = "ogihai" };
-            TabBVM tb = new TabBVM { FieldA = "ahsgodihd", FieldB = "aoghdisg" };
+            TabVM ta = new TabVM { FieldA = "alskjdf", FieldB = "ogihai" };
+            TabVM tb = new TabVM { FieldA = "ahsgodihd", FieldB = "aoghdisg" };
             this.DataContext = new TabCtrlVM { TabAVM = ta, TabBVM = tb };
         }
     }
