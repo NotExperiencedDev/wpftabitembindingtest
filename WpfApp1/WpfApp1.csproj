@@ -56,6 +56,7 @@
     </ApplicationDefinition>
     <Compile Include="BaseVM.cs" />
     <Compile Include="CheckCmd.cs" />
+    <Compile Include="ModifyFromBehindCmd.cs" />
     <Compile Include="TabCtrlVM.cs" />
     <Compile Include="TabVM.cs" />
     <Page Include="MainWindow.xaml">

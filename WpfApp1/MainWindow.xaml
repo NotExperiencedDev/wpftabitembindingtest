@@ -32,6 +32,10 @@
                     CommandParameter="{Binding ElementName=tbCtrl, Path=SelectedValue.DataContext}">
                 Check
             </Button>
+            <Button Command="{Binding ModifyCmd}" 
+                    CommandParameter="{Binding ElementName=tbCtrl, Path=SelectedValue.DataContext}">
+                Modify from behind
+            </Button>
         </StackPanel>
     </Grid>
 </Window>

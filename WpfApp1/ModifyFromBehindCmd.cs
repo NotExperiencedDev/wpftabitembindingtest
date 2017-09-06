@@ -4,9 +4,10 @@ using System.Windows.Input;
 
 namespace WpfApp1
 {
-    public class CheckCmd : ICommand
+    public class ModifyFromBehindCmd : ICommand
     {
-        public CheckCmd()
+        static int _incr;
+        public ModifyFromBehindCmd()
         {
 
         }
@@ -17,8 +18,12 @@ namespace WpfApp1
 
         public void Execute(object parameter)
         {
-            var vm = parameter as TabVM;
-            MessageBox.Show(vm?.FieldA + "  " + vm?.FieldB);
+            TabVM vm;
+            if ((vm = parameter as TabVM) != null)
+            {
+                vm.FieldA += _incr++;
+                vm.FieldB += _incr++;
+            }
         }
 
         public event EventHandler CanExecuteChanged

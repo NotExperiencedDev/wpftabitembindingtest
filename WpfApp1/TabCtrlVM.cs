@@ -5,9 +5,11 @@ namespace WpfApp1
     public class TabCtrlVM:BaseVM
     {
         private ICommand _cmd;
+        private ICommand _modifyCmd;
         public TabCtrlVM()
         {
             _cmd = new CheckCmd();
+            _modifyCmd = new ModifyFromBehindCmd();
         }
 
         public TabVM TabAVM { get; set; }
@@ -17,11 +19,11 @@ namespace WpfApp1
         public ICommand CheckCmd
         {
             get { return _cmd; }
-            set
-            {
-                if(_cmd != value)
-                    _cmd = value;
-            }
+        }
+
+        public ICommand ModifyCmd
+        {
+            get { return _modifyCmd; }
         }
     }
 }
